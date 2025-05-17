@@ -11,6 +11,8 @@
     <title><?php bloginfo('name');?> | <?php the_title(); ?></title>
     <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-selavie.css">    
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/2025/01/cropped-ICONE-1.png' ); ?>" type="image/x-icon">
+
 </head>
 <body>
 
