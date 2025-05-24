@@ -49,7 +49,7 @@
 </section>
 
 <!-- About Section -->
-<section class="about">
+<section class="about" id="about">
     <div class="container">
         <div class="about-grid">
             <div class="about-image">
@@ -66,7 +66,7 @@
 </section>
 
 <!-- Services Section -->
-<section class="services">
+<section class="services" id="services">
     <div class="container">
         <div class="section-header">
             <h2>Nossos Tratamentos</h2>
@@ -108,7 +108,7 @@
 </section>
 
 <!-- CTA Section -->
-<section class="cta-section">
+<section class="cta-section" id="cta-section">
     <div class="container cta-container">
         <h2>Transforme sua vida hoje mesmo</h2>
         <p>Não espere mais para iniciar sua jornada de recuperação. Entre em contato agora e converse com nossa equipe especializada sobre as melhores opções de tratamento.</p>
@@ -120,7 +120,7 @@
 </section>
 
 <!-- Testimonials Section -->
-<section class="testimonials">
+<section class="testimonials" id="testimonials">
     <div class="container">
         <div class="section-header">
             <h2>Depoimentos</h2>
@@ -269,11 +269,10 @@
         </div>
         <nav class="nav-menu">
             <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Quem Somos</a>
-            <a href="#" class="nav-link">Tratamentos</a>
-            <a href="#" class="nav-link">Equipe</a>
-            <a href="#" class="nav-link">Blog</a>
-            <a href="#" class="nav-link">Contato</a>
+            <a href="#about" class="nav-link">Quem Somos</a>
+            <a href="#services" class="nav-link">Tratamentos</a>
+            <a href="#testimonials" class="nav-link">Depoimentos</a>
+            <a href="#contact" class="nav-link">Contato</a>
         </nav>
         <a href="#" class="header-cta">Fale com um especialista</a>
     </div>
